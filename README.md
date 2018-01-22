@@ -1,2 +1,0 @@
-# Canuckkid.github.io
-Website
