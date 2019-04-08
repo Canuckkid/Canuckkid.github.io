@@ -89,7 +89,69 @@
          <div class="container">
                 <h3 class="title">Coding Projects</h3>	            
                 <h5 class="description"> This portfolio includes projects from QTMA product development, hackathons, schoolwork, as well as any personal items I have completed. </h5> 
-                <div class="modal fade" id="reckonerAndroidModal" tabindex="-1" role="dialog" aria-labelledby="reckonerAndroidModalLabel" aria-hidden="true">	
+                                <div class="row">	
+                    <div class="col-md-6 offset-md-3">	
+                        <h4 class="title text-center">My Work</h4>	
+                    </div>	
+                </div>	
+            </div>	
+        </div>	
+        <div class="section">	
+            <div class="container">	
+                <div class="row">	
+                <div class="col-md-7">	
+                        <h3 class="title">Writing</h3>	
+                        <div class="card">	
+                        I'm currently Editor in Chief of The Reckoner, the award-winning newspaper from Marc Garneau CI. I oversee 80+ staff, write editorial and news articles, maintain the paper's webstie, and develop its Android Application. Last year, the paper was named Best Electronic Newspaper by the Toronto Star.	
+                        <br/>	
+                        <br/>	
+                        <ul>	
+                            <li><a href="thereckoner.ca/2016-us-presidential-election-breakdown/">2016 US Presidential Breakdown</a></li>	
+                            <li><a href="thereckoner.ca/demar-derozan-underrated-never-overlooked/">DeMar DeRozan: Underrated But Never Overlooked</a></li>	
+                        </ul>	
+                        </div>	
+                    </div>	
+                <div class="col-md-5">	
+                        <h3 class="title">My Skills</h3>	
+                        <div class="card">	
+                            <ul class="nav nav-tabs justify-content-center" role="tablist">	
+                                <li class="nav-item">	
+                                    <a class="nav-link active" data-toggle="tab" href="#languages" role="tab" aria-expanded="false">Languages</a>	
+                                </li>	
+                                <li class="nav-item">	
+                                    <a class="nav-link" data-toggle="tab" href="#technologies" role="tab" aria-expanded="false">Technologies</a>	
+                                </li>	
+                            </ul>	
+                            <div class="card-block">	
+                                <div class="tab-content">	
+                                    <div class="tab-pane active" id="languages" role="tabpanel" aria-expanded="false">	
+                                        <ul>	
+                                            <li>Java</li>	
+                                            <li>R</li>	
+                                            <li>C++</li>	
+                                            <li>JavaScript</li>	
+                                            <li>Python</li>	
+                                        </ul>	
+                                    </div>	
+                                    <div class="tab-pane" id="technologies" role="tabpanel" aria-expanded="false">	
+                                        <ul>	
+                                            <li>Android Mobile & TV</li>	
+                                            <li>WordPress</li>	
+                                            <li>D3.js</li>	
+                                            <li>Firebase</li>	
+                                            <li>Git</li>	
+                                        </ul>	
+                                    </div>	
+                                </div>	
+                            </div>	
+                        </div>	
+                    </div>	
+                </div>	
+            </div>	
+        </div>	
+
+         <!-- Reckoner Android Modal --> 	
+        <div class="modal fade" id="reckonerAndroidModal" tabindex="-1" role="dialog" aria-labelledby="reckonerAndroidModalLabel" aria-hidden="true">	
             <div class="modal-dialog">	
                 <div class="modal-content">	
                     <div class="modal-header justify-content-center">	
@@ -114,8 +176,82 @@
                     </div>	
                 </div>	
             </div>	
+        </div>	
+
+         <!-- Reckoner Election Modal --> 	
+        <div class="modal fade" id="reckonerElectionModal" tabindex="-1" role="dialog" aria-labelledby="reckonerElectionModalLabel" aria-hidden="true">	
+            <div class="modal-dialog">	
+                <div class="modal-content">	
+                    <div class="modal-header justify-content-center">	
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">	
+                            <i class="now-ui-icons ui-1_simple-remove"></i>	
+                        </button>	
+                        <h4 class="title title-up">US Election Interactives</h4>	
+                    </div>	
+                    <div class="modal-body">	
+                        <p>In addition to contributing as a writer for The Reckoner's Breakdown of the 2016 US Presidential Election, I also created two interactive graphiics using D3.js to help readers grasp the numbers and stats we were referencing. The first was an interactive map of the United States, with each state colour-coded by the vote distribution. It also includes an info section on hover that has a graph and small blurb about the state's election. The second interactive was a scatter plot analyzing polling error. The visualization were recognized by the <i>Toronto Star</i> with the Award for Best Electronic Layout. 	
+                        </p>	
+                    </div>	
+                    <div class="modal-footer">	
+                        <a class="btn btn-default material-icon-holder" href="http://thereckoner.ca/2016-us-presidential-election-breakdown/" target="_blank">	
+                            <span>Read the Article</span>	
+                        </a>	
+                        <a class="btn btn-default material-icon-holder" href="https://github.com/the-reckoner/reckoner-android" target="_blank">	
+                            <i class="fa fa-github" style="font-size: 25px"></i>	
+                            <span>View on GitHub</span>	
+                        </a>	
+                    </div>	
+                </div>	
+            </div>	
+        </div>	
+
+         <!-- Loblaws Messenger Modal --> 	
+        <div class="modal fade" id="loblawsMessengerModal" tabindex="-1" role="dialog" aria-labelledby="loblawsMessengerModalLabel" aria-hidden="true">	
+            <div class="modal-dialog">	
+                <div class="modal-content">	
+                    <div class="modal-header justify-content-center">	
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">	
+                            <i class="now-ui-icons ui-1_simple-remove"></i>	
+                        </button>	
+                        <h4 class="title title-up">Loblaws Messenger</h4>	
+                    </div>	
+                    <div class="modal-body">	
+                        <p>A Facebook Messenger Bot that allows users to search and purchase Loblaws products through Messenger. The user can also search for a recipe (Food2Fork API), and automatically add the ingredients to their cart. Winner of the Loblaws' API Prize at Hack the North 2016.	
+                        </p>	
+                    </div>	
+                    <div class="modal-footer">	
+                        <a class="btn btn-default material-icon-holder" href="https://github.com/torvarun/loblaws-messenger" target="_blank">	
+                            <i class="fa fa-github" style="font-size: 25px"></i>	
+                            <span>View on GitHub</span>	
+                        </a>	
+                    </div>	
+                </div>	
+            </div>	            </div>
+        </div>	        </div>
+
+         <!-- Nature Relaxation Modal --> 	
+        <div class="modal fade" id="natureRelaxationModal" tabindex="-1" role="dialog" aria-labelledby="natureRelaxationModalLabel" aria-hidden="true">	
+            <div class="modal-dialog">	
+                <div class="modal-content">	
+                    <div class="modal-header justify-content-center">	
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">	
+                            <i class="now-ui-icons ui-1_simple-remove"></i>	
+                        </button>	
+                        <h4 class="title title-up">Nature Releaxation Android TV</h4>	
+                    </div>	
+                    <div class="modal-body">	
+                        <p>Nature Relaxation is an Android TV app that allows users to watch Nature Relaxation TV content on their TV. The app uses the Leanback Library, along with the VHX.tv API and Glide. Built for App Mastery Inc.	
+                        </p>	
+                    </div>	
+                    <div class="modal-footer">	
+                        <a class="btn btn-default material-icon-holder" href="https://play.google.com/store/apps/details?id=co.appmastery.naturerelaxation" target="_blank">	
+                            <i class="material-icons left">shop</i>	
+                            <span>Google Play Store</span>	
+                        </a>	
+                    </div>	
+                </div>	
+            </div>	
         </div>
-    </div>
 </body>
 <!--   Core JS Files   -->
 <script src="./assets/js/core/jquery.3.2.1.min.js" type="text/javascript"></script>
